@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%; 
+}
+
+body {
+  background-color: rgb(236, 234, 234);
+}
+
+h1 {
+  width: 82%;
+  color: gray;
+  text-align: left;
+  margin-left: 170px;
+  padding: 10px 0px 10px 20px;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h3 {
+  width: 82%;
+  color: gray;
+  font-weight: 600;
+  text-align: left;
+  padding: 0px 0px 10px 20px;
+  font-size: 1.5rem;
+  margin: 10px 0px 10px 170px;
+}
+
+p, li {
+  color: grey;
+}
+
+a {
+  color: #66F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(34, 93, 255);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c58af9;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 2rem; 
+  width: 80%;
+  height: 3rem; 
+}
+
+p {
+  font-size: 1.6rem; 
+}
+
+.navegacao li {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 1rem 1rem 2rem 1rem;
+  line-height: 1.2rem;
+}
+
+.navegacao a {
+  color: #66F;
+  display: block;
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+form {
+  width: 80%;
+  margin: 0px auto;
+  background: rgb(208, 218, 248);
+  padding: 2px;
+}
+
+form > div {
+  background: white;
+  margin: 5px;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.6rem; 
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #66F
+}
+
+input {
+  padding: 1rem;
+}
+
+[type="text"], [type="email"], [type="mensagem"] textarea, label {
+  display: block;
+  width: 100%;
+}
+
+header {
+  background-color :rgb(196 210 250);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  width: 100%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer p {
+  background-color: rgb(196 210 250);
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 769px) {
+  body {
+    background-color: rgb(196, 210, 250);
+  }
+
+  header {
+    background-color: #3333;
+  }
+
+  h1, h3 {
+    text-align: left;
+    margin: 0px auto;
+
+  }
+
+  nav, li, a {
+    color:rgb(255, 255, 255)
+  }
+
+  form {
+    background-color: rgba(128, 128, 128, 0.315);
+  }
+
+  footer p {
+    background-color: #3333;
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav,article {
+    width: 100%;
+  }
+
+  h1, h3 {
+    margin-left: 60px;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  nav, article  {
+    width: 100%;
+    min-width: 320px;
+  }
+
+  header {
+    font-size: 1.8rem;
+  }
+
+  h1, h3 {
+    margin-left: 15px;
+    padding: 10px;
+  }
+
+  .container-form {
+    width: 100%;
+  }
+
+  .container-form > form {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  form {
+    width: 80%;
+    margin: 10px;
+  }
+
+  footer p {
+    font-size: 1.3rem;
+  }
+  
+}
+

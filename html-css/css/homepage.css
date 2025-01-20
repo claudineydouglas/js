@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  html {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(57, 57, 57);
+	font-size: 62.5%; 
+  }
+  
+  body {
+	background-color: rgb(236, 234, 234);
+  }
+  
+  h1 {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: white;
+  }
+  
+  h2 {
+	margin-bottom: 5px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: gray;
+  }
+
+  h3 {
+	margin: 10px 0px 5px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: gray;
+  }
+
+  h4 {
+	width: 95%;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  a {
+	color: #66F;
+	text-decoration: none;
+  }
+
+  a:hover {
+	text-decoration: underline;
+	color: rgb(31, 31, 252);
+  }
+
+  a:visited {
+	color: #c58af9;
+  }
+
+  .container-imagem {
+	width: 100%;
+  }
+
+  picture {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+  }
+  
+  	picture img {
+	filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.685));
+	border-radius: 50%;
+	width: 30%;
+	height: auto;
+  }
+
+  img:hover {
+	filter: grayscale(100%);
+  }
+  
+  #primeiro-link > a {
+	color: #933;
+  }
+  
+  ul {
+	font-size: 2rem;
+  }
+
+  .texto-5 {
+	margin: 20px 0px 0px 0px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: bold;
+  }
+
+  	.paragrafo-0 {
+	text-align: justify;
+    font-size: 2rem;
+	padding: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .navegacao, li {
+	display: block;
+	padding: 10px;
+	line-height: 1.5rem;
+  }
+  
+  section .navegacao a {
+	color: #66F;
+	display: block;
+	width: 100%;
+  }
+
+  header {
+	background-color: rgb(196 210 250);
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+  }
+  
+  nav {
+	float: left;
+	width: 25%;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  article {
+	float: left;
+	width: 50%;
+  }
+
+  section {
+	margin-top: 5%;
+  }
+  
+  section::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  footer p {
+	margin-top: 20px;
+	background-color: rgb(196 210 250);
+	padding: 10px;
+	text-align: center;
+	color: white;
+  }
+
+  @media (min-width :769px) {
+	body {
+	  background-color: rgb(196, 210, 250);
+	}
+  
+	header {
+	  background-color: #3333;
+	}
+  
+	h1 {
+	  margin-bottom: 10px;
+	}
+  
+	nav li a {
+	  color:rgb(255, 255, 255)
+	}
+
+	.separador {
+		line-height: 2.3rem;
+	}
+
+	img {
+		width: 30%;
+	}
+
+	h4 {
+		font-size: 2rem;
+	}
+
+	.paragrafo-1 {
+		text-transform: uppercase;
+		font-size: 1.5rem;
+	}
+
+	div > p {
+		font-size: 1.8rem;
+	}
+  
+	footer p {
+	  background-color: #3333;
+	}
+  }
+
+  @media (max-width: 768px) {
+
+	.separador {
+		line-height: 2.3rem;
+	}
+
+picture img {
+	width: 35%;
+}
+
+.texto-5 {
+	text-align: left;
+	padding: 10px;
+	font-size: 1.7rem;
+}
+
+.paragrafo-0 {
+	padding: 10px;
+	font-size: 1.8rem;
+}
+
+  @media (max-width: 425px) {
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	nav, section, article  {
+		width: 100%;
+		min-width: 320px;
+	}
+
+	header {
+		font-size: 1.8rem;
+	}
+
+
+	div > p {
+		max-width: 100%;
+		padding: 15px;
+		text-align: justify;
+	}
+
+	.texto-5 {
+		padding: 20px;
+		font-size: 1.6rem;
+		text-align:left;
+	}
+
+	.paragrafo-0 {
+		padding: 20px;
+		text-align: justify;
+		font-size: 1.6rem;
+	}
+
+	picture img {
+		width: 35%;
+	}
+
+	footer p {
+		font-size: 1.3rem;
+	}
+  }
+
+
+
+  
+  

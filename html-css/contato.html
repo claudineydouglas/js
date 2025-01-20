@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário fale conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css-modulo-08/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css-modulo-08/contato.css">
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="../html-modulo-08/homepage.html">Home</a></li>
+					<li><a href="../html-modulo-08/sobre.html">Sobre</a></li>
+					<li><a href="../html-modulo-08/contato.html">Contato</a></li>
+					<li><a href="../html-modulo-08/convite-cafe.html">Convite</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<h1>Contato</h1>
+
+				<h3>Preencha os campos abaixo:</h3>
+
+				<div class="container-form">
+
+				<form method="get">
+						<div>
+							<label for="nome">Nome</label>
+							<input type="text" name="name" id="nome" placeholder="Digite seu nome">
+						</div>
+						<div>
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+						</div>
+						<div>
+							<label for="mensagem">Mensagem</label>
+							<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+						</div>
+						<div>
+							<p>
+								<label>Qual linguagem você prefere?</label>
+								<input type="radio" name="linguagens" value="html">HTML
+								<input type="radio" name="linguagens" value="css">CSS
+								<input type="radio" name="linguagens" value="javascript">JavaScript
+							</p>
+						</div>
+						<div>
+							<p>
+								<label>Qual linguagem você sabe?</label>
+								<input type="checkbox" name="linguagens" value="html">HTML
+								<input type="checkbox" name="linguagens" value="css">CSS
+								<input type="checkbox" name="linguagens" value="javascript">JavaScript
+							</p>
+						</div>
+						<div>
+						<label>Qual sua cor favorita?</label>
+						<select>
+							<option value="azul">Azul</option>
+							<option value="verde" selected>Verde</option>
+							<option value="vermelho">Vermelho</option>	
+						</select>
+						</div>
+						<div>
+						<input type="submit">
+					</div>
+
+				</form>
+
+			</div>
+
+				
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Claudinei</p>
+		</footer>
+
+	</body>
+</html>

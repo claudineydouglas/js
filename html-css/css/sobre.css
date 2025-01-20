@@ -1,0 +1,187 @@
+
+* {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: rgb(236, 234, 234);
+}
+
+
+h1 {
+  color: black;
+  margin: 40px auto;
+  text-align: center;
+	font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: bold;
+	font-size: 1.3em;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  color: #000000ba;
+}
+
+article, p {
+  color: rgb(84, 83, 83);
+  font-size: 1.8rem;
+  padding: 10px 25px;
+  text-align: justify;
+}
+
+header {
+  background-color: rgb(196 210 250);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 2rem; 
+  width: 80%;
+  height: 3rem; 
+}
+
+a {
+  font-size: 2rem;
+  color: #66F;
+  text-decoration: none;
+}
+
+a:hover {
+  width: 20%;
+  text-decoration: underline;
+  color: rgb(31, 31, 252);
+}
+
+  .container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  filter: drop-shadow(4px 4px 4px #3333);
+}
+
+div > img {
+  filter: drop-shadow(4px 4px 4px #3333);
+  width: 50%;
+  height: auto;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer p {
+  width: 100%;
+  background-color: rgb(196 210 250);
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width :769px) {
+  body {
+    background-color: rgb(196, 210, 250);
+  }
+
+  header {
+    background-color: #3333;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  nav li a {
+    color:rgb(255, 255, 255)
+  }
+
+  footer p {
+    background-color: #3333;
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav, article {
+    width: 100%;
+  }
+
+  article, P {
+    margin: 0px;
+  }
+
+  #container-img {
+    width: 100%;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  .coluna {
+    text-align: justify;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  header {
+    font-size: 2rem;
+  }
+
+  nav, article {
+    width: 100%;
+    min-width: 320px;
+
+  }
+
+  div > img  {
+    width: 90%;
+  }
+
+  footer p {
+    font-size: 1.3rem;  
+    }
+      
+}
