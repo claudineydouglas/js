@@ -1,0 +1,86 @@
+Exercícios:
+1. Resolva as operações:
+● 10 + 15 =35 (number)
+● “10” + 2 ="102" (string)
+● “10” * 2 = 20 (number)
+● “10” / 3 = 3.3333333333333335 (float)
+● “10” % 3 = 1 (number)
+● 10 + true = 11 (numer)
+● 10 == ”10” = true (bolean)
+● 10 === “10” = false (bolean)
+● 10 < 11 = true (bolean)
+● 10 > 12 = false (bolean)
+● 10 <= 10.1 = true (bolean)
+● 10 > 9.99 = true (bolean)
+● 10 != “dez” = true (bolean)
+● 10 + true = 11 (number)
+● “dez” + true = 'deztrue' (string)
+● 10 + false = 10 (number)
+● 10 * false = 0 (number)
+● true + true = true (bolean)
+● 10++ = 11 = (incremento)
+● 10-- = 9 (decremento)
+● 1 & 1 = 1 (E (AND))
+● 1 & 0 = 0 (E (AND))
+● 0 & 0 = 0 (E (AND))
+● 0 / 1 = 0 (dividir)
+● 5 + 5 == 10 = true (bolean)
+● “5” + ”5” == 10 = false (bolean)
+● “5” * 2 > 9 = true (bolean)
+● (10 + 10) * 2 = 40 (bolean)
+● 10 + 10 * 2 = 30 (bolean)
+
+
+2. Responda as perguntas de acordo com as variáveis.
+var branco = “preto”;
+var preto = “cinza”;
+var cinza = “branco”;
+var carro = “preto”;
+var valor = 30000; 
+var prestacao = 750;
+
+a) branco == “branco” (false )
+b) branco == cinza (false)
+c) carro === branco (true)
+d) var cavalo = carro == “preto” ? “cinza” : “marron”; ("preto") = ( cavalo = "cinza")
+e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
+de 3.000? Demonstre a operação.
+Valor total do carro = R$ 30.000
+
+Entrada = R$ 3.000
+
+Restante:
+
+javascript
+Copy
+Edit
+30000 - 3000 = 27000
+Valor da prestação = R$ 750
+
+Número de prestações:
+
+javascript
+Copy
+Edit
+27000 / 750 = 36
+Resposta: 36 prestações
+
+Demonstração da operação:
+Valor restante = 30000 - 3000 = 27000
+Número de prestações = 27000 / 750 = 36
+
+f) Somando as variáveis de cores é formada uma string de quantos caracteres?
+branco = "preto"
+
+preto = "cinza"
+
+cinza = "branco"
+
+Soma das strings: "preto" + "cinza" + "branco" = "pretocinzabranco"
+
+Contar os caracteres:
+
+"pretocinzabranco" → 16 caracteres
+
+Resposta: 16 caracteres
+
