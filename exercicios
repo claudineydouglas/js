@@ -52,16 +52,14 @@ Entrada = R$ 3.000
 Restante:
 
 javascript
-Copy
-Edit
+
 30000 - 3000 = 27000
 Valor da prestação = R$ 750
 
 Número de prestações:
 
 javascript
-Copy
-Edit
+
 27000 / 750 = 36
 Resposta: 36 prestações
 
