@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Eletronic store </h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#produto">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Sobre a Eletronic Store
+Na Eletronic, somos apaixonados por conectar pessoas à tecnologia de ponta. Atuamos como uma referência no mercado de tecnologia, oferecendo uma experiência completa com os produtos da Apple — desde iPhones, iPads e Macs até acessórios e serviços especializados.
+
+Nosso compromisso é garantir que cada cliente encontre não apenas o produto ideal, mas também suporte confiável, atendimento personalizado e um ambiente onde a inovação é acessível a todos. Seja para uso pessoal, profissional ou corporativo, a Apple Store é o seu destino para tecnologia de alto desempenho, com segurança e credibilidade.
+
+Além da venda de produtos, oferecemos assistência técnica especializada, consultoria em soluções Apple, treinamentos e suporte pós-venda, sempre com foco na excelência.
+
+Eletronic Store: tecnologia, inovação e confiança na palma da sua mão.</p>
+                    <a class="btn btn-lg btn-success">Clique e saiba mais</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/pexels-czapp-arpad-3647289-11396009.jpg" alt="tecnologia" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/pexels-luckysam-47261.jpg" alt="imagem-celular">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto 1</h5>
+                            <p class="card-text">Smartphone XPro Max 256GB – Desempenho, estilo e inovação
+O XPro Max traz o equilíbrio perfeito entre potência e design. Com tela Super AMOLED de 6,7", processador octa-core, 8GB de RAM e 256GB de armazenamento interno, ele garante velocidade e espaço de sobra para tudo o que você precisa.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/pexels-ekaterina-bolovtsova-6372998.jpg" alt="imagem-tablet">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto 2</h5>
+                            <p class="card-text">Tablet UltraTab 10.5" 128GB – Versatilidade e performance onde você estiver
+Com tela ampla de 10.5" Full HD, o UltraTab oferece uma experiência visual imersiva para estudar, trabalhar ou se divertir. Equipado com 6GB de RAM, 128GB de armazenamento interno e processador octa-core.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/pexels-pixabay-40185.jpg" alt="imagem-notebook">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto 3</h5>
+                            <p class="card-text">Notebook ProBook 15.6" i5 8GB 256GB SSD Desempenho e produtividade em qualquer lugar
+O ProBook é a escolha ideal para quem busca eficiência no dia a dia. Com processador Intel Core i5, 8GB de memória RAM e SSD de 256GB, ele garante velocidade para tarefas multitarefa, estudos ou trabalho.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Contato" class="section-formulario">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preecha os campos do formulário para receber uma cotação</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button id="botao" type="submit" class="btn btn-lg-success">Solicitar cotação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <h6>Confira o tamanho e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tamanho</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <td>A</td>
+                                    <td>R$ 100</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>B</td>
+                                    <td>R$ 200</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>C</td>
+                                    <td>R$ 300</td>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="modal-fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 2</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <h6>Confira o tamanho e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tamanho</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <td>D</td>
+                                    <td>R$ 400</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>E</td>
+                                    <td>R$ 500</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>F</td>
+                                    <td>R$ 600</td>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 3</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                            <h6>Confira o tamanho e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tamanho</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <td>G</td>
+                                    <td>R$ 700</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>H</td>
+                                    <td>R$ 800</td>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <td>I</td>
+                                    <td>R$ 900</td>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
