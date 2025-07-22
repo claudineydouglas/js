@@ -1,8 +1,8 @@
 body {
-    background-color: rgba(239, 239, 239, 0.788);
+     background-color: whitesmoke;
 }
 header {
-    background-color: rgba(211, 211, 211, 0.692);;
+     background-color: #efefef;
 }
 
 section {
@@ -21,11 +21,16 @@ input,textarea {
 }
 
 .section-formulario {
-    background-color: rgba(211, 211, 211, 0.692);
+    background-color: #efefef;
 }
 
 p {
     text-align: justify;
+}
+
+.texto-h5, h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
 }
 
 .form {
@@ -33,5 +38,15 @@ p {
 }
 
 #botao {
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    background-color: #d9d9d9;
+
+}
+h5.text-truncate.col-3 {
     background-color: #007BFF;
+    text-align: center;
+}
+div.carrousel-caption {
+    text-align: center;
 }

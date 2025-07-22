@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./libs/bootstrap//css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/regular.min.css">
     <link rel="stylesheet" href="./style/custom.css">
-    <title>Document</title>
+    <title>Index</title>
 </head>
 
 <body>
@@ -22,12 +25,48 @@
                         <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#produto">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./cadastro.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
+    <section>
+        <div class="container">
+            <h5 class="texto-h5">Lançamentos</h5>
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-21x9">
+                            <img src="./images/iphone-1266301_640.jpg" class="d-block w-100 opacity-75" alt="...">
+                        </div>
+                        <div class="carrousel-caption">
+                            <h5 class="truncate col-12">Iphone Z</h5> 
+                            <a href="btn btn-link stretched-link" class="link-botao">Clique para ver mais</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/tabletapple-528461_640.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/mecbook.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
     <section id="sobre">
         <div class="container">
@@ -35,13 +74,19 @@
                 <div class="col-md-7 col-sm-12">
                     <h2>Sobre nós</h2>
                     <p>Sobre a Eletronic Store
-Na Eletronic, somos apaixonados por conectar pessoas à tecnologia de ponta. Atuamos como uma referência no mercado de tecnologia, oferecendo uma experiência completa com os produtos da Apple — desde iPhones, iPads e Macs até acessórios e serviços especializados.
+                        Na Eletronic, somos apaixonados por conectar pessoas à tecnologia de ponta. Atuamos como uma
+                        referência no mercado de tecnologia, oferecendo uma experiência completa com os produtos da
+                        Apple — desde iPhones, iPads e Macs até acessórios e serviços especializados.
 
-Nosso compromisso é garantir que cada cliente encontre não apenas o produto ideal, mas também suporte confiável, atendimento personalizado e um ambiente onde a inovação é acessível a todos. Seja para uso pessoal, profissional ou corporativo, a Apple Store é o seu destino para tecnologia de alto desempenho, com segurança e credibilidade.
+                        Nosso compromisso é garantir que cada cliente encontre não apenas o produto ideal, mas também
+                        suporte confiável, atendimento personalizado e um ambiente onde a inovação é acessível a todos.
+                        Seja para uso pessoal, profissional ou corporativo, a Apple Store é o seu destino para
+                        tecnologia de alto desempenho, com segurança e credibilidade.
 
-Além da venda de produtos, oferecemos assistência técnica especializada, consultoria em soluções Apple, treinamentos e suporte pós-venda, sempre com foco na excelência.
+                        Além da venda de produtos, oferecemos assistência técnica especializada, consultoria em soluções
+                        Apple, treinamentos e suporte pós-venda, sempre com foco na excelência.
 
-Eletronic Store: tecnologia, inovação e confiança na palma da sua mão.</p>
+                        Eletronic Store: tecnologia, inovação e confiança na palma da sua mão.</p>
                     <a class="btn btn-lg btn-success">Clique e saiba mais</a>
                 </div>
                 <div class="col-md-5 col-sm-12">
@@ -59,12 +104,14 @@ Eletronic Store: tecnologia, inovação e confiança na palma da sua mão.</p>
 
                     <h2>Produtos</h2>
 
-                    <div class="card">
+                    <div class="card" id="produto">
                         <img src="./images/pexels-luckysam-47261.jpg" alt="imagem-celular">
                         <div class="card-body">
                             <h5 class="card-title">Produto 1</h5>
                             <p class="card-text">Smartphone XPro Max 256GB – Desempenho, estilo e inovação
-O XPro Max traz o equilíbrio perfeito entre potência e design. Com tela Super AMOLED de 6,7", processador octa-core, 8GB de RAM e 256GB de armazenamento interno, ele garante velocidade e espaço de sobra para tudo o que você precisa.</p>
+                                O XPro Max traz o equilíbrio perfeito entre potência e design. Com tela Super AMOLED de
+                                6,7", processador octa-core, 8GB de RAM e 256GB de armazenamento interno, ele garante
+                                velocidade e espaço de sobra para tudo o que você precisa.</p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
                         </div>
                     </div>
@@ -72,8 +119,11 @@ O XPro Max traz o equilíbrio perfeito entre potência e design. Com tela Super 
                         <img src="./images/pexels-ekaterina-bolovtsova-6372998.jpg" alt="imagem-tablet">
                         <div class="card-body">
                             <h5 class="card-title">Produto 2</h5>
-                            <p class="card-text">Tablet UltraTab 10.5" 128GB – Versatilidade e performance onde você estiver
-Com tela ampla de 10.5" Full HD, o UltraTab oferece uma experiência visual imersiva para estudar, trabalhar ou se divertir. Equipado com 6GB de RAM, 128GB de armazenamento interno e processador octa-core.</p>
+                            <p class="card-text">Tablet UltraTab 10.5" 128GB – Versatilidade e performance onde você
+                                estiver
+                                Com tela ampla de 10.5" Full HD, o UltraTab oferece uma experiência visual imersiva para
+                                estudar, trabalhar ou se divertir. Equipado com 6GB de RAM, 128GB de armazenamento
+                                interno e processador octa-core.</p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
                         </div>
                     </div>
@@ -81,8 +131,11 @@ Com tela ampla de 10.5" Full HD, o UltraTab oferece uma experiência visual imer
                         <img src="./images/pexels-pixabay-40185.jpg" alt="imagem-notebook">
                         <div class="card-body">
                             <h5 class="card-title">Produto 3</h5>
-                            <p class="card-text">Notebook ProBook 15.6" i5 8GB 256GB SSD Desempenho e produtividade em qualquer lugar
-O ProBook é a escolha ideal para quem busca eficiência no dia a dia. Com processador Intel Core i5, 8GB de memória RAM e SSD de 256GB, ele garante velocidade para tarefas multitarefa, estudos ou trabalho.</p>
+                            <p class="card-text">Notebook ProBook 15.6" i5 8GB 256GB SSD Desempenho e produtividade em
+                                qualquer lugar
+                                O ProBook é a escolha ideal para quem busca eficiência no dia a dia. Com processador
+                                Intel Core i5, 8GB de memória RAM e SSD de 256GB, ele garante velocidade para tarefas
+                                multitarefa, estudos ou trabalho.</p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
                         </div>
                     </div>
@@ -126,85 +179,85 @@ O ProBook é a escolha ideal para quem busca eficiência no dia a dia. Com proce
                 <div class="modal-header">
                     <h5 class="modal-title">Produto 1</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                    </div>
-                    <div class="modal-body">
-                            <h6>Confira o tamanho e os preços</h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>
-                                    <td>A</td>
-                                    <td>R$ 100</td>
+                                <td>A</td>
+                                <td>R$ 100</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>B</td>
-                                    <td>R$ 200</td>
+                                <td>B</td>
+                                <td>R$ 200</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>C</td>
-                                    <td>R$ 300</td>
+                                <td>C</td>
+                                <td>R$ 300</td>
                                 </td>
                             </tr>
                         </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>  
-                    </div>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+    </div>
 
-         <div class="modal-fade" id="modal-2">
+    <div class="modal-fade" id="modal-2">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Produto 2</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                    </div>
-                    <div class="modal-body">
-                            <h6>Confira o tamanho e os preços</h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>
-                                    <td>D</td>
-                                    <td>R$ 400</td>
+                                <td>D</td>
+                                <td>R$ 400</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>E</td>
-                                    <td>R$ 500</td>
+                                <td>E</td>
+                                <td>R$ 500</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>F</td>
-                                    <td>R$ 600</td>
+                                <td>F</td>
+                                <td>R$ 600</td>
                                 </td>
                             </tr>
                         </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -216,46 +269,60 @@ O ProBook é a escolha ideal para quem busca eficiência no dia a dia. Com proce
                 <div class="modal-header">
                     <h5 class="modal-title">Produto 3</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                    </div>
-                    <div class="modal-body">
-                            <h6>Confira o tamanho e os preços</h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>
-                                    <td>G</td>
-                                    <td>R$ 700</td>
+                                <td>G</td>
+                                <td>R$ 700</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>H</td>
-                                    <td>R$ 800</td>
+                                <td>H</td>
+                                <td>R$ 800</td>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td>
-                                    <td>I</td>
-                                    <td>R$ 900</td>
+                                <td>I</td>
+                                <td>R$ 900</td>
                                 </td>
                             </tr>
                         </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>  
-                    </div>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="./libs/bootstrap//js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/efc41f0741.js" crossorigin="anonymous"></script> -->
+
+    <script src="./libs/fontawesome/js/fontawesome.min.js"></script>
+
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleControls')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 3000
+        })
+    </script>
+
 </body>
 
 </html>

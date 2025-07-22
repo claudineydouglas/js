@@ -2,3 +2,34 @@ textarea.form-control {
     width: 100% !important;
     display: block;
 }
+
+body {
+
+    font-size: 62.5%;
+}
+
+form {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+
